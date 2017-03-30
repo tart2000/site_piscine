@@ -1,0 +1,34 @@
+title: Faq
+pages: false
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  intro: 
+    label: intro
+    type: text
+  questions1: 
+    label: FAQ colonne 1
+    type: structure 
+    entry: >
+      {{question}}
+    fields:
+      question:
+        label: Question
+        type: text
+      answer:
+        label: Answer
+        type: textarea
+  questions2: 
+    label: FAQ colonne 2
+    type: structure 
+    entry: >
+      {{question}}
+    fields:
+      question:
+        label: Question
+        type: text
+      answer:
+        label: Answer
+        type: textarea

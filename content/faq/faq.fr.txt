@@ -1,0 +1,52 @@
+Title: FAQ
+
+----
+
+Questions: 
+
+- 
+  question: À qui s'adresse La Piscine ?
+  answer: Aux artistes, architectes, designers, et gestionnaires qui représentent le futur de la scène et du divertissement, de l'édition, de l'écriture, de la publicité, des métiers d’art, de la mode, des arts culinaires, du jeu vidéo, du multimédia et de la réalité virtuelle, de l’audiovisuel, des nouvelles écritures et des nouveaux médias. Son programme est pensé pour faciliter le passage à l'échelle d'entreprises et OSBLs ayant une proposition de valeur qui sort des sentiers battus.
+- 
+  question: Comment est faite la sélection ?
+  answer: Les critères de selection se basent principalement sur le caractère innovant du projet que l'approche innovante soit sur le modèle d'affaire, un processus ou l'intégration de technologies.
+- 
+  question: Quel est l'engagement ?
+  answer: Les organisations s'engagent pour six mois avec une possibilité de prolonger pour quatre autres mois.
+
+----
+
+Questions1: 
+
+- 
+  question: La Piscine est-elle pour moi ?
+  answer: >
+    Oui, surement, si vous cherchez un
+    environnement créatif pour développer
+    votre projet.
+- 
+  question: >
+    Comment se fait le processus de
+    sélection ?
+  answer: "Pour l'instant, la sélection se fait au cas par cas. Nous tenons à prendre le temps de rencontrer chaque organisation afin de lui offrir un parcours personnalisé."
+
+----
+
+Questions2: 
+
+- 
+  question: Où en est le projet ?
+  answer: >
+    La Piscine a été développé depuis un
+    an dans un espace temporaire dans le
+    vieux Montréal, sous le nom ICMTL.
+    Plusieurs organisations ont été
+    accompagnées pour valider la
+    proposition.
+- 
+  question: Qui est derrière le projet ?
+  answer: "Le projet est porté par Rhizome, une agence d'innovation spécialisée dans la mise en place d'écosystèmes."
+
+----
+
+Intro: Vous ne trouvez pas de réponse à votre question ? <br>Ecrivez à plouf@lapiscine.ca

@@ -1,0 +1,56 @@
+Title: Home
+
+----
+
+Intro: 
+
+##Encore un incubateur ?
+Unique à Montréal, la Piscine a pour vocation d'accompagner des projets technologiques ambitieux dans les domaines de la culture, des arts visuels, du spectacle vivant, de la scène, de l'édition ou du jeu*.
+
+\*Ou qui produisent des outils pour ces domaines là.
+
+----
+
+Ctas: 
+
+- 
+  title: Un écosystème riche et diversifié
+  faicon: users
+  description: >
+    Des coachs et mentors issus de
+    différents domaines
+- 
+  title: Un parcours à la carte
+  faicon: map-o
+  description: >
+    Répondant aux besoins de chaque
+    entrepreneur
+- 
+  title: Un bâtiment historique
+  faicon: building-o
+  description: "Au coeur du quartier de l'Innovation"
+
+----
+
+Text: 
+
+----
+
+Steps: 
+
+- 
+  title: "Mise à l'eau"
+  text: >
+    Apprenons à nous connaitre ! Pendant 4
+    mois, accédez au réseau et aux
+    activités de la Piscine.
+- 
+  title: Coaching
+  text: "Allons plus loin ! Rejoignez un parcours de coaching axé directement sur vos besoins d'entrepreneur."
+- 
+  title: Financement
+  text: "C'est parti ! Accédez à des sources de financement privilégiées, grâce au réseau de la Piscine."
+
+----
+
+Stepsintro: Un niveau d'accompagnement pour chaque projet

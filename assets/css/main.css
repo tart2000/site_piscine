@@ -1,0 +1,25 @@
+.logo a {
+  background-size: 30rem;
+  width: 30rem;
+}
+.fa-paper-plane {
+  font-size: 0.75em;
+}
+.flexblock li h2 svg {
+  padding: 5px;
+}
+.button, .button:hover {
+  border-width: 0px;
+}
+.steps li span {
+  margin: 0 0 .8rem;
+}
+.gallery li {
+  background-color: white;
+}
+@media (min-width: 1024px) {
+  section, .slide {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+  }
+}

@@ -1,0 +1,49 @@
+title: Home
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  intro:
+    label: Intro
+    type:  textarea
+
+  stepsintro:
+  	label: Steps intro
+  	type: text
+
+  steps:
+  	label: Steps
+  	type: structure 
+  	entry: >
+  		{{title}}
+  	fields:
+  		title: 
+  			label: Title 
+  			type: text
+  		text:
+  			label: Text
+  			type: textarea 
+
+  ctas: 
+    label: Spécificités
+    type: structure 
+    entry: >
+      {{title}}
+    fields:
+    	title:
+        	label: Title
+        	type: text
+    	faicon: 
+      		label: Icone Font Awesome
+      		type: text
+      	description:
+        	label: Description
+        	type: textarea
+
+  text:
+    label: Text
+    type:  textarea
