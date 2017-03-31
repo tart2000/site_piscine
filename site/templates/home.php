@@ -7,7 +7,9 @@
 -->
 
 <section class="bg-gradient-v aligncenter">
-  <span class="background dark" style="background-image:url('https://source.unsplash.com/kwXby58kRSo/1440x1440')"></span>
+  <?php if ($page->hasImages()) : ?>
+    <span class="background dark" style="background-image:url('<?php echo $page->images()->first()->url() ?>')"></span>
+  <?php endif ?>
   <div class="wrap size-70">
     <img src="assets/images/piscine_logo_white.png">
     <h3><?php echo $site->description() ?></h3>
@@ -18,7 +20,9 @@
       Montréal
     </p>
     <a href="#" onClick="ws.goNext()" class="button radius" title="Download WebSlides">
-      Plonger ! 
+      <svg class="fa-arrow-down">
+        <use xlink:href="#fa-arrow-down"></use>
+      </svg> 
     </a>
   </div>
   <!-- .end .wrap -->
@@ -124,6 +128,8 @@
     </ul>
   </div>
 </section>
+
+<?php snippet('partners') ?>
 
 <?php snippet('faq') ?>
 

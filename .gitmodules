@@ -1,0 +1,3 @@
+[submodule "site/fields/subpagelist"]
+	path = site/fields/subpagelist
+	url = https://github.com/flokosiol/kirby-subpagelist.git

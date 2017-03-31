@@ -23,15 +23,15 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
 
     <!-- CSS Base -->
-    <link rel="stylesheet" type="text/css" media="all" href="../assets/css/base.css">
+    <?php echo css('assets/css/base.css') ?>
 
     <!-- CSS Colors -->
-    <link rel="stylesheet" type="text/css" media="all" href="../assets/css/colors.css">
+    <?php echo css('assets/css/colors.css') ?>
 
     <!-- Optional - CSS SVG Icons (Font Awesome) -->
-    <link rel="stylesheet" type="text/css" media="all" href="../assets/css/svg-icons.css">
+    <?php echo css('assets/css/svg-icons.css') ?>
 
-    <link rel="stylesheet" type="text/css" media="all" href="../assets/css/main.css">
+    <?php echo css('assets/css/main.css') ?>
 
 
     <!-- SOCIAL CARDS (ADD YOUR INFO) -->

@@ -1,0 +1,18 @@
+
+title: Partners
+pages:
+  template: partner
+  hidden: true
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  description: 
+  	label: Description 
+  	type: textarea
+  Bloclist:
+    label: Partners
+    type: subpagelist
+    filter: 
+  		template: partner

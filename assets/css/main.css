@@ -2,8 +2,8 @@
   background-size: 30rem;
   width: 30rem;
 }
-.fa-paper-plane {
-  font-size: 0.75em;
+nav[role=navigation] li a {
+    background-color: #28285b;
 }
 .flexblock li h2 svg {
   padding: 5px;
@@ -14,8 +14,17 @@
 .steps li span {
   margin: 0 0 .8rem;
 }
+.button {
+  min-width: 4.8rem;
+}
 .gallery li {
   background-color: white;
+}
+.partners>li {
+  max-width: 500px;
+}
+section, .slide {
+    padding-bottom: 12rem;
 }
 @media (min-width: 1024px) {
   section, .slide {

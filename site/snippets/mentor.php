@@ -7,6 +7,10 @@
 	    <?php endif ?>
 	    <figcaption>
 	      <h2><?php echo $mentor->title() ?></h2>
+	      <?php if ($cat = $mentor->category()) : ?>
+	      	<?php $thecat = page('categories')->children()->findByURI($cat) ?>
+		    <p><b><?php echo $thecat->title() ?></b></p>
+		  <?php endif ?>
 	      <p>
 	      	<a href="<?php e($mentor->mentorLink()!='',$mentor->mentorLink()) ?>" target="_blank">
 	            <?php echo $mentor->skill() ?> <?php if($mentor->skill() != '' && $mentor->company()!='') { echo ' - ';} ?> <?php echo $mentor->company() ?>
