@@ -1,1 +1,5 @@
-Title: Un projet
+Title: Un projet de :
+
+----
+
+Description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
