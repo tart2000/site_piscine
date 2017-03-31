@@ -1,20 +1,25 @@
-<header role="banner">
-  <nav role="navigation">
-    <p class="logo"><a href="<?php echo $site->url() ?>" title="La Piscine"><?php echo $site->title() ?></a></p>
+<!-- The overlay -->
+<div id="myNav" class="overlay">
 
-    <ul>
-      <?php foreach ($site->pages()->visible() as $p) : ?>
-        <li class="menu">
-          <a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>
-        </li>
-      <?php endforeach ?>
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+ 
+  <!-- Overlay content -->
+  <div class="overlay-content">
+  	<a href="<?php echo $site->url() ?>">
+  		<img src="<?php echo $site->url() ?>/assets/images/piscine_logo_white.png">
+  	</a>
+  	<?php foreach($pages->visible() as $p): ?>
+  		<a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>
+	<?php endforeach ?>
+	<ul class="socials">
       <?php if ($site->twitt() != '') : ?>
         <li class="twitter">
           <a rel="external" href="https://twitter.com/<?php echo $site->twitt() ?>" title="Twitter">
             <svg class="fa-twitter">
               <use xlink:href="#fa-twitter"></use>
             </svg>
-            <em>@<?php echo $site->twitt() ?></em>
           </a>
         </li>
       <?php endif ?>
@@ -36,7 +41,6 @@
           </a>
         </li>
       <?php endif ?>
-
       <?php if ($site->courriel() != '') : ?>
         <li class="mail">
           <a rel="external" href="mailto:<?php echo $site->courriel() ?>" title="email">
@@ -47,5 +51,11 @@
         </li>
       <?php endif ?>
     </ul>
-  </nav>
-</header>
+  </div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()" type="button" class="burger">
+	&#9776;
+</span>
